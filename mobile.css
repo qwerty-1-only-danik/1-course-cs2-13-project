@@ -1,0 +1,137 @@
+/*========mobile version======*/
+
+@media screen and (max-width: 769px) {
+
+    /*======1.header========*/
+
+    header {
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+    }
+    
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*=====2.hero section========*/
+
+    #home {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px 60px;
+        gap: 30px;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    /*put our img in simple orient*/
+
+    .hero-img {
+        position: static;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    /*============3.home/products===========*/
+
+    #products {
+        padding: 50px 20px;
+    }
+
+    .product-container article {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*========4.featured prod/banner======*/
+
+    #offer, #quality {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    #featured-cream {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap:30px;
+        text-align: center;
+    }
+
+    #featured-cream img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    /*======5.icons========*/
+
+    .icons-container {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /*====6.subscribe=========*/
+
+    #newsletter {
+        flex-direction: column;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    #newsletter form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #newsletter input {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    #newsletter img {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    /*========7. about us========*/
+
+    #about {
+        padding: 50px 20px;
+        margin: 30px 0;
+    }
+
+    /*put back girl and paste==*/
+
+    .about-left-img, .about-right-img {
+        position: static;
+        width: 100%;
+        max-width: 220px;
+        margin: 15px auto;
+        display: block;
+    }
+
+    /*========footer=======*/
+
+
+    footer {
+        padding: 40px 20px 20px;
+    }
+
+    .footer-top, .footer-columns {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footer-col article {
+        justify-content: center;
+        text-align: left;
+    }
+}
